@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--lightcolor);
+}
+:root{
+    ---bgcolor1:#171a1c;
+    --bgcolor2:#22262a;
+    --lightcolor:#fff;
+    --primarycolor:#22e;
+    --secondarycolor:#ccc;
+}
+header{
+    width: 100%;
+    height: 15vh;
+    background-color: var(---bgcolor1);
+    border-bottom: 1px solid var(--secondarycolor);
+
+}
+nav{
+    padding:35px 7% 7% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1{
+    font-size: 35px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+}
+.hed1{
+    color:var(--primarycolor);
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px 25px;
+}
+ul li a{
+    color:var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.5s; 
+}
+ul li a:hover{
+    color: var(--primarycolor);
+}
+.btn{
+    background-color:var(--primarycolor) ;
+    color:var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: .5s;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+}
+main{
+    background-color: var(--bgcolor2);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 2px solid var(--secondarycolor);
+}
+.one p {
+    color: var(--lightcolor);
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+.content{
+    padding: 8%;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    
+}
+.one p {
+    color:var(--lightcolor);
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+.social{
+    margin-top:25px ;
+    margin-left: 30px;
+}
+.social img{
+    margin-right: 30px;
+    width: 35px;
+    transition: .5s;
+}
+.social img:hover{
+    background-color: transparent;
+   transform: scale(1.2) ;
+}
+.shape{
+    width: 400px;
+    height:350px;
+}
+.mypic{
+    width: 300px;
+    height: 300px;
+
+}
+div .pic{
+    position:absolute;
+    top: 100vh;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    align-self: flex-end ;
+
+}
+ div.pic img{
+    position: absolute;
+    bottom: 0;
+    height: 60%;
+    left: 80%;
+    transform: translate(-50%);
+    transition: 1s;
+}
+div.pic:hover .shape{
+    bottom: 20px;
+}
+div.pic:hover .mypic{
+    left: 78%;
+}
+ .second{
+    
+    background-color: var(--bgcolor2);
+    color: var(--lightcolor);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    border-bottom: 2px solid var(--secondarycolor);
+}
+figure{
+    width: 300px;
+    height: 350px;
+    padding-top: 25vh;
+    padding-left: 50px;
+}
+h2{
+    position: absolute;
+    top: 10vh;
+    right: 40%;
+    font-size: 40px;
+    color: var(--primarycolor);
+}
+
+
+ .second img{
+    width: 200px;
+    height: 300px;
+}
+
+
+article{
+    position: absolute;
+    top: 200vh;
+    height: 60vh;
+    width: 100%;
+    padding-top:20vh ;
+    padding-left: 25%;
+    background-color: var(--bgcolor2);
+    border-bottom: 1px solid var(--secondarycolor);
+}
+.art{
+    font-size:24px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+.join{
+    position: absolute;
+    top:260vh ;
+    height: 60vh;
+    width:100%;
+    background-color: var(--bgcolor2);
+  
+
+}
+span.team{
+    font-size:24px;
+    font-weight: bold;
+}
+.fff{
+    position: absolute;
+    top: 30%;
+    right:  30%;
+}
+.btn2{
+    background-color:var(--primarycolor) ;
+    color:var(--lightcolor);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    transition: .5s;
+    position:absolute;
+    right: 20%;
+    top: 50%;
+}
+.btn2:hover{
+    background-color: transparent;
+    border: 2px solid var(--primarycolor);
+}
+footer{
+    position: absolute;
+    top:330vh;
+    height: 10px;
+    width: 100%;
+    color:#000 ;
+    background-color:var(red);
+    text-align: center;
+    font-weight:lighter;
+    border-top: 2px solid var(--secondarycolor);
+}
+
+.bold{
+    color:#000;
+    font-weight: bold;
+}
+.moody{
+    color:var(--primarycolor);
+    font-weight: bold;
+    font-size: larger;
+}
